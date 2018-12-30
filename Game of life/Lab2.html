@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game of life, Бабкин В.В.</title>
+    <style>
+        #back {
+            z-index: 0;
+            position: absolute;
+        }
+        #game {
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <input type="button" id="clear" value="Очистка">
+    <input type="button" id="rand" value="Рандомизация">
+    <input type="button" id="step" value="Шаг">
+    <input type="button" id="autoplay" value="Автошаги">
+    <br><br>
+    <canvas id="back" width="1301" height="501" ></canvas>
+    <canvas id="game" width="1301" height="501" ></canvas> 
+    <script src="Lab2.js" type="application/javascript"></script>
+    <HEADER>GAME OF LIFE</HEADER>
+    <p>Бабкин В.В.</p>
+    <p>Группа РИ-450004</p>
+</body>
+</html>
